@@ -11,6 +11,6 @@ export class CounterStore {
 
   @action
   async decrement() {
-    this.value += 1;
+    this.value -= 1;
   }
 }
